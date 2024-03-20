@@ -3,13 +3,13 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - xegw
     paths-ignore:
       - '**.md'
       - 'img/**'
   pull_request:
     branches:
-      - master
+      - xegw
     paths-ignore:
       - '**.md'
       - 'img/**'
