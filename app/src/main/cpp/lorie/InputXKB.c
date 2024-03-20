@@ -50,7 +50,7 @@
 extern DeviceIntPtr lorieKeyboard;
 
 static const KeyCode fakeKeys[] = {
-    92, 203, 204, 205, 206, 207
+    30, 31, 32, 33, 34, 35
     };
 
 static KeySym pressedKeys[256] = {0};
