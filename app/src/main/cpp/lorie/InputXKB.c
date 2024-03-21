@@ -48,7 +48,7 @@
 #define unused __attribute__((__unused__))
 
 extern DeviceIntPtr lorieKeyboard;
-
+//如果一次性输入超出占位keycode个数的文字，超出的部分会变成重复文字。
 static const KeyCode fakeKeys[] = {
     92, 147, 148, 149
     };
