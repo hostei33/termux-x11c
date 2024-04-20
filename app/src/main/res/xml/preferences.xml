@@ -123,12 +123,12 @@
         <SwitchPreferenceCompat
             android:title="显示附加键盘"
             android:summary="Show keyboard with additional keys."
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="showAdditionalKbd" />
 
         <SwitchPreferenceCompat
             android:title="按下音量调减时隐藏附加键盘"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="hideEKOnVolDown" />
 
         <SwitchPreferenceCompat
