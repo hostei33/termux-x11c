@@ -45,17 +45,9 @@ public class TermuxX11ExtraKeys implements ExtraKeysView.IExtraKeysView {
     public int side = 0;
 
     /** Defines the key for extra keys */
-    public static final String DEFAULT_IVALUE_EXTRA_KEYS = "[]";//"[['ESC','/',{key: '-', popup: '|'},'HOME','UP','END','PGUP'], ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"; // Double row
+    public static final String DEFAULT_IVALUE_EXTRA_KEYS = "[['ESC','h'],['SHIFT','s'],['ALT','t'], ['CTRL','d'],['UP','g'],['DOWN','z'],['a','x']]";
     /** 添加右侧按键的默认值 */
-    public static final String DEFAULT_IVALUE_EXTRA_KEYS2 = "[\n" +
-            "['HOME','END'],\n" +
-            "['/',{key: '-', popup:'|'}],\n" +
-            "['PGDN','PGUP'],\n" +
-            "['ALT','CTRL'],\n" +
-            "['UP','LEFT'],\n" +
-            "['DOWN','RIGHT'],\n" +
-            "['TAB']\n" +
-            "]";
+    public static final String DEFAULT_IVALUE_EXTRA_KEYS2 = "[['1','TAB'],['2','q'],['3','w'],['4','e'],['5','LEFT'],['6','RIGHT'],['y','u']]";
 
     public TermuxX11ExtraKeys(@NonNull View.OnKeyListener eventlistener, MainActivity activity, ExtraKeysView extrakeysview) {
         mEventListener = eventlistener;
